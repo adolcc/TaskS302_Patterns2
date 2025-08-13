@@ -1,0 +1,1 @@
+rootProject.name = "TaskS302_Patterns2"
