@@ -1,12 +1,14 @@
-**Introduction to Spring Boot**
+**Construction Patterns**
+This series of exercises focuses on the implementation of advanced software design patterns for building flexible and modular systems.
 
-Through this series of exercises, a practical understanding of creating microservices with Spring Boot has been achieved.
+Builder Pattern  
+The first level focuses on the Builder pattern. A pizza order management system is developed, where this pattern allows for the creation of complex Pizza objects with different combinations of size, dough, and toppings in a clear and controlled manner. The construction process is decoupled from the final representation, making it easy to create pizzas with various configurations without overloading the constructors.
 
-REST API Fundamentals: Two basic APIs were built to understand how endpoints work, handling HTTP GET requests and processing data through both query parameters (@RequestParam) and path variables (@PathVariable).
+Observer Pattern  
+The second level delves into the Observer pattern. A stock agency notification system is created, where a StockBroker (the observable object) automatically notifies multiple StockAgencies (the observers) when there is a change in the market. This pattern establishes a one-to-many relationship, ensuring that changes in the observable object are efficiently communicated to all its dependents.
 
-Dependency Management: Two of the most widely used dependency managers in the Java ecosystem, Maven and Gradle, were explored and compared. This allowed for familiarization with their project structures and command-line tools for compiling, packaging, and running applications.
-
-Development Tools: Essential tools for the modern workflow were utilized. Development environments were set up in Eclipse, and Postman was used to professionally test the APIs by creating environments and variables to efficiently manage test configurations.
+Callback Pattern  
+The final level explores the Callback pattern, simulating a payment gateway. A shoe store uses this gateway to process payments without needing to know the details of the specific method (credit card, PayPal, etc.). The pattern is implemented so that the gateway invokes the encapsulated payment method and returns control to the original class once the transaction is complete, allowing for a flexible and extensible design for future payment methods.
 
 ---
 
