@@ -20,7 +20,7 @@ Resources were provided by my campus, Google searches, dedicated coding websites
 
 **Technologies Used**
 
-GitHub Desktop, Postman, Intellij IDEA. 
+GitHub Desktop, Intellij IDEA. 
 
 ---
 
