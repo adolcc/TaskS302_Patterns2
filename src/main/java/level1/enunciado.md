@@ -3,7 +3,8 @@ Vamos a profundizar en los patrones de construcción de software. Piénsalo bien
 Nivel 1
 En todos los ejercicios, crea un proyecto Gradle con una clase Main que demuestre el uso del patrón (con las invocaciones que se necesiten).
 
-Builder
+#### Builder.  
+___
 Desarrolla un sistema de gestión de pedidos de pizzas utilizando el patrón de diseño Builder en Java. El sistema debe permitir la creación de diferentes tipos de pizzas con configuraciones de tamaño, masa e ingredientes distintos.
 
 Define una clase Pizza con los siguientes atributos:
